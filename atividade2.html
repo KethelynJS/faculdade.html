@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Front-end</title>
+  <!-- Link para o Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header class="container">
+  <h1>Curso de Desenvolvimento Web e Gestão de Projetos de Software</h1>
+  <nav>
+    <a href="#">Início</a> |
+    <a href="#">Sobre</a> |
+    <a href="#">Contato</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section>
+    <h2>Sobre o GitHub e o GitHub Pages</h2>
+    <p>O GitHub é uma plataforma amplamente utilizada para versionamento e gestão de códigos. Uma das funcionalidades destacadas é o GitHub Pages, um serviço que permite a publicação de sites estáticos diretamente de um repositório GitHub.</p>
+  </section>
+  <section>
+    <h2>Importância da Segurança Online</h2>
+    <p>Os alunos são orientados sobre a importância da segurança na criação de contas online. Práticas recomendadas ao configurar um repositório incluem o uso de senhas seguras e a ativação da autenticação de dois fatores.</p>
+  </section>
+  <section>
+    <h2>Funcionalidades do GitHub</h2>
+    <p>O GitHub oferece funcionalidades além da hospedagem de código, como gestão de projetos, Wiki, controle de acesso e integração contínua. Essas ferramentas permitem colaboração eficiente e organização de projetos.</p>
+  </section>
+</main>
+
+<footer class="container">
+  &copy; <span id="year"></span> Curso de Desenvolvimento Web e Gestão de Projetos de Software
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
